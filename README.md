@@ -1,11 +1,11 @@
-📚 Library Management System (JPA)
+Library Management System (JPA)
 ==================================
 
 A Java-based library management application developed using Jakarta Persistence (JPA). This system manages book records, inventory tracking, and advanced data analysis using a structured Data Access Object (DAO) pattern.
 
 * * * * *
 
-🚀 Features
+ Features
 -----------
 
 -   **JPA Persistence:** Efficient data handling using Hibernate / Jakarta Persistence
@@ -20,7 +20,7 @@ A Java-based library management application developed using Jakarta Persistence 
 
 * * * * *
 
-🛠️ Tech Stack
+ Tech Stack
 --------------
 
 -   **Language:** Java
@@ -33,7 +33,7 @@ A Java-based library management application developed using Jakarta Persistence 
 
 * * * * *
 
-📋 Requirements & Structure
+Requirements & Structure
 ---------------------------
 
 ### 1\. Book Entity (POJO)
@@ -94,7 +94,7 @@ The core model includes:
 
 * * * * *
 
-💻 Usage Example
+ Usage Example
 ----------------
 
 The `Main` class demonstrates the full lifecycle:
@@ -107,7 +107,7 @@ The `Main` class demonstrates the full lifecycle:
 
 * * * * *
 
-🔁 Data Idempotency
+ Data Idempotency
 -------------------
 
 Ensures consistent results across multiple runs:
@@ -122,7 +122,7 @@ if (dao.getTotalBookCount() == 0) {
 
 * * * * *
 
-📊 Result Processing
+Result Processing
 --------------------
 
 Aggregated results (e.g., counts or averages by genre) are returned as a `List<Object[]>`.
@@ -140,7 +140,7 @@ for (Object[] row : dao.getBookCountByGenre()) {
 
 * * * * *
 
-⚙️ Setup
+ Setup
 --------
 
 Ensure your `persistence.xml` is located at:
